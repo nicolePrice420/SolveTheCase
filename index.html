@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			body
+			{
+				background-color: black;
+			}
+			@keyframes blinkingText
+			{
+				0%{     color: #000;    }
+				49%{    color: #000; }
+				60%{    color: transparent; }
+				99%{    color:transparent;  }
+				100%{   color: #000;    }
+			}
+			#cursor
+			{
+				font-size: 2em;
+				font-weight: bolder;
+				animation: blinkingText 1.2s infinite;
+			}
+			h1, h3
+			{
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+		<center>
+			<h3>Hello, I am</h3>
+			<h1>C:\>Nicole Price</h1><p id="cursor">_</p>
+		</center>
+	</body>
+</html>
